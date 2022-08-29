@@ -15,7 +15,7 @@ public:
 	Queue(int max);
 	~Queue();
 	void Add(Drums spin); // Добавить
-	Drums  Extract(); // Извлечь
+	Drums Extract(); // Извлечь
 	void Clear();   // Очистить
 	void Print();   // Напечатать
 	void PrintLast(); // Показать последнего
