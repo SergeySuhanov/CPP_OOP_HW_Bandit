@@ -13,9 +13,9 @@ struct Drums
 
 class Bandit
 {
-	Drums spin;
-	Queue queue;
 public:
+	Drums spin;
+
 	Bandit();
 	~Bandit();
 	void MakeSpin();
